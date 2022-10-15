@@ -284,7 +284,7 @@ def grpc_deps():
         http_archive(
             name = "upb",
             sha256 = "69412e7ae1c1165428b352b2e1d492e8b4d888c35ab32ca229d909a7413787c6",
-            strip_prefix = "fix-fall-through",
+            strip_prefix = "upb-fix-fall-through",
             urls = [
                 "https://github.com/lysliu/upb/archive/refs/tags/fix-fall-through.tar.gz",
             ],
